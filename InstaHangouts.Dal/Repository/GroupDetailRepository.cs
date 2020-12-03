@@ -14,6 +14,9 @@ using System.Threading.Tasks;
 
 namespace InstaHangouts.Dal.Repository
 {
+    /// <summary>
+    /// Group Details
+    /// </summary>
     public class GroupDetailRepository : BaseRepository<GroupDetail>, IGroupDetailRepository
     {
         /// <summary>
