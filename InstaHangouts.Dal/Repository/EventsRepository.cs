@@ -15,6 +15,9 @@ using NLog;
 
 namespace InstaHangouts.Dal.Repository
 {
+    /// <summary>
+    /// Events Repository
+    /// </summary>
     public class EventsRepository : BaseRepository<PlanEvent>, IEventsRepository
     {
         private static Logger logger = LogManager.GetCurrentClassLogger();
